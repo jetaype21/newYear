@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./year.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.contdow__container {
+    display: flex;
+    background: rgba(0 0 0 / .5);
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.contdow__container>b {
+    font-size: 3.3rem;
+}
+
+.big__text {
+    font-size: 4rem;
+}
+
+.days_c,
+.hours_c,
+.minutes_c,
+.seconds_c {
+    text-align: center;
+    padding: .3rem .8rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+@media screen and (max-width: 576px) {
+    .big__text {
+        font-size: 2rem;
+    }
+}
